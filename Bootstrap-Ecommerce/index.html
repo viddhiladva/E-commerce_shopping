@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-commmere</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="img/shopping-cart.ico">
+        <link rel="icon" href="icon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+<!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shopp<span class="x">ing.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 ms-5 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#letest">Letest</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#categorie">Categories</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contect.html">Contect us</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex" role="search">
+
+                    <span class="icon">
+                        <a href="/cart.html">
+                            <i class="fas fa-shopping-cart fa-1x i1"></i>
+                        </a>
+                        <span class="icon1">04</span>
+                    </span>
+
+
+                    <button class="btn-1" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Sign
+                        in</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item item1 img-1 active">
+                <div class="carousel-caption text-area text-end">
+                    <h1 class="display-3">New season Collection</h1>
+                    <p class="lead">Here you found the perfect Kurta for your Diwali. Also, you found a perfect saree for Diwali. <br> Enjoy this season with our new Collection.</p>
+                    <a href="products.html" class="btn-1">View all</a>
+                </div>
+            </div>
+            <div class="carousel-item  item1 img-2">
+                <div class="carousel-caption text-area text-center ">
+                    <h1 class="display-3">60% off on all Outfits</h1>
+                    <p class="lead">Get 60% off on all Outfits and 10% cashback on every Order. </p>
+                    <a href="products.html" class="btn-1">View all</a>
+                </div>
+            </div>
+            <div class="carousel-item item1 img-3">
+                <div class="carousel-caption text-area text-start">
+                    <h1 class="display-3">New Arrivels</h1>
+                    <p class="lead">New Stock for Festive season ,<br> Dhamaka offer.</p>
+                    <a href="products.html" class="btn-1">View all</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!-- letest section  -->
+<section id="letest">
+  <div class="container text-center">
+    <h1 class="mb-5 mt-5 categories">Latest</h1>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card card-1">
+          <img src="https://images.pexels.com/photos/7675855/pexels-photo-7675855.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Make-up</p>
+            <h5 class="card-title"><s class="text-danger">$50.00</s>$30.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/6652242/pexels-photo-6652242.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Full-combo</p>
+            <h5 class="card-title"><s class="text-danger">$100.00</s>$90.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/4347368/pexels-photo-4347368.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Ladies Formals</p>
+            <h5 class="card-title"><s class="text-danger">$50.00</s>$35.00</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card card-1">
+          <a href="/view.html">
+          <img src="https://images.pexels.com/photos/6347552/pexels-photo-6347552.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Man's Formals</p>
+            <h5 class="card-title"><s class="text-danger">$100.00</s>$90.00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/5935748/pexels-photo-5935748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Man's Combo</p>
+            <h5 class="card-title"><s class="text-danger">$150.00</s>$100.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/6337085/pexels-photo-6337085.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Black Outfits </p>
+            <h5 class="card-title"><s class="text-danger">$500.00</s>$300.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card card-1">
+            <a href="/view.html">
+            <img src=" https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text lead">Baby Skirt</p>
+              <h5 class="card-title"><s class="text-danger">$50.00</s>$40.00</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-1">
+           
+            <img src="https://images.pexels.com/photos/459957/pexels-photo-459957.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+            
+            <div class="card-body">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text lead">Baby Combo</p>
+              <h5 class="card-title"><s class="text-danger">$250.00</s>$150.00</h5>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="card card-1">
+           
+            <img src="https://images.pexels.com/photos/9648676/pexels-photo-9648676.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+            
+            <div class="card-body">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text lead">Sportswear</p>
+              <h5 class="card-title"><s class="text-danger">$900.00</s>$700.00</h5>
+            </div>
+          </div>
+        </div>
+  
+</section>
+</section>
+<section class="image-hero mb-5 mt-5">
+  <div class="d-flex flex-column align-items-center justify-content-center overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="tex text-white">
+            Grab your 50% off now
+          </h1>
+          <p class="about-p text-white">Lowest Prices Best Quality Shopping. Showing 10000 products which are perfect for your budget.</p>
+          </div>
+          
+          <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center"> 
+            <button class="btn btn-info"> Grab it now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALL PRODUCT SECTION -->
+<section id="product">
+  <div class="container text-center">
+    <h1 class="mb-5 mt-5 categories">All products</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card card-1">
+          <a href="/view.html">
+          <img src="https://images.pexels.com/photos/1374128/pexels-photo-1374128.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Heand Watch</p>
+            <h5 class="card-title"><s class="text-danger">$40.00</s>$30.00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top">
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Shoes</p>
+            <h5 class="card-title"><s class="text-danger">$150.00</s>$130.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/4452518/pexels-photo-4452518.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Wallets</p>
+            <h5 class="card-title"><s class="text-danger">$30.00</s>$20.00</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card card-1">
+          <a href="/view.html">
+          <img src="https://images.pexels.com/photos/2965095/pexels-photo-2965095.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+          </a>
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Earings</p>
+            <h5 class="card-title"><s class="text-danger">$100.00</s>$50.00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/6954164/pexels-photo-6954164.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Make-up Kit</p>
+            <h5 class="card-title"><s class="text-danger">$250.00</s>$130.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card card-1">
+         
+          <img src="https://images.pexels.com/photos/8218379/pexels-photo-8218379.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+          
+          <div class="card-body">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text lead">Hat</p>
+            <h5 class="card-title"><s class="text-danger">$50.00</s>$30.00</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card card-1">
+            <a href="/view.html">
+            <img src="https://images.pexels.com/photos/298825/pexels-photo-298825.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+            </a>
+            <div class="card-body">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text lead">Baby Toys</p>
+              <h5 class="card-title"><s class="text-danger">$150.00</s>$130.00</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-1">
+           
+            <img src="https://images.pexels.com/photos/10508388/pexels-photo-10508388.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+            
+            <div class="card-body">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text lead">Kids Combo</p>
+              <h5 class="card-title"><s class="text-danger">$500.00</s>$300.00</h5>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="card card-1">
+           
+            <img src=" https://images.pexels.com/photos/3932934/pexels-photo-3932934.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="">
+            
+            <div class="card-body">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="card-text lead">Chiled Combo</p>
+              <h5 class="card-title"><s class="text-danger">$700.00</s>$600.00</h5>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br>
+  <a href="/products.html" class="btn-1 btn-a mb-3 mt-5">View all products</a><hr class="mt-4">
+</section>
+
+<!-- categories section -->
+<section id="categorie">
+  <div class="container text-center">
+      <h1 class="mt-5 mb-5 categories">Categories</h1>
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="card">
+                  <h2 class="c-1">New Collection</h2>
+                  <h2 class="c-2 overlay-c">Women's Fashion</h2>
+                  <button class="btn-2">Get Started</button>
+                  <img src="https://images.pexels.com/photos/247204/pexels-photo-247204.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-card" alt="img 4 not found">
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card">
+                  <h2 class="c-1">60% offers</h2>
+                  <h2 class="c-2 overlay-c">men's Fashion</h2>
+                  <button class="btn-2">Get Started</button>
+                  <img src="https://images.pexels.com/photos/3576345/pexels-photo-3576345.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="img-card" alt="img 5 not found">
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card">
+                  <h2 class="c-1">Best offers</h2>
+                  <h2 class="c-2 overlay-c">kids's Fashion</h2>
+                  <button class="btn-2">Get Started</button>
+                  <img src="https://images.pexels.com/photos/35188/child-childrens-baby-children-s.jpg?auto=compress&cs=tinysrgb&w=600" class="img-card" alt="img 6 not found">
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- service -->
+<section class="services" id="service">
+  <div class="container">
+    <h1 class="mb-5 mt-4 categories text-center">Services</h1>
+  
+  <div class="row service-para">
+    <div class="col-lg-4">
+      <i class="far fa-paper-plane fa-2x mb-3"></i>
+      <h3 style="color:#0fbae0;"><u>Fast delivery</u></h3>
+      <p class="lead service-para">Super fast delivery in just one day. 24*7 services are available.</p>
+    </div>
+    <div class="col-lg-4">
+      <i class="far fa-credit-card fa-2x mb-3"></i>
+      <h3 style="color:#0fbae0;"><u>Lowest Price</u></h3>
+      <p class="lead service-para">Lowest price as compare to all over the India's online platform.</p>
+    </div>
+    <div class="col-lg-4">
+      <i class="far fa-money-bill-alt fa-2x mb-3"></i>
+      <h3 style="color:#0fbae0;"><u>All product</u></h3>
+      <p class="lead service-para">Men's, Women's, and kids wear, all types of products are available. </p> 
+    </div>
+    <hr class="mt-4"> 
+  </div>
+  </div>
+</section>
+<footer class="mt-5">
+  <h2>Shopp<span class="x">ing</span></h2>
+  <p>&copy Viddhi Ladva</p>
+  </footer>
+
+    <!-- pop-up box (modal) -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sign in</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Your name">
+
+                        <label>Email</label>
+                        <input type="Email" class="form-control" placeholder="name@gmail.com">
+
+                        <label>Phone Number</label>
+                        <input type="text" class="form-control" placeholder="+91">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-1">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

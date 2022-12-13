@@ -1,0 +1,34 @@
+@media (max-width: 500px) {
+    .col-sm-4 {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4rem;
+    }
+    .about-p {
+      display: none;
+      text-align: center;
+    }
+    .content-table {
+      width: 25rem;
+      overflow: hidden;
+    }
+    .check {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .img-n {
+      height: 70vh;
+      width: 100vw;
+    }
+    .navbar ul li  {
+      background-color:#bcd7dd;
+      color: rgb(17, 16, 16) !important;
+    }
+  
+    }
